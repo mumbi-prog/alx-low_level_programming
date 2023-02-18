@@ -1,14 +1,15 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
- * main - main entry point
- *
- * Return: Always 0
- */
+ * main - Entry point
+ * Return: Always return 0 (Success)
+*/
 int main(void)
 {
-	int n, m;
+	int n;
+
+	int m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -18,5 +19,6 @@ int main(void)
 	if (m == 0)
 		printf("Last digit of %d is %d and is 0\n", n, m);
 	if (m < 6 && m != 0)
-		printf("Lastdigit of %d id %d and is less than 6 and not 0\n", n, m);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
 	return (0);
+}

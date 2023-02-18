@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main entry point
- * Description - prints two digits combination
+ * Description - prints all possible different combinations of two digits
  * Return: Always 0
  */
 int main(void)

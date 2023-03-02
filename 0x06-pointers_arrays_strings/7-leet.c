@@ -2,14 +2,8 @@
 
 /**
  * leet - main entry point
- * Description: encodes a string into 1337speak
- * You can only use one if in your code
- * You can only use two loops in your code
- * You are not allowed to use switch
- * You are not allowed to use any ternary operation
- *
+ * Description: encodes a string into 1337s
  * @z: the string
- *
  * Return: the new string
  */
 char *leet(char *z)

@@ -7,7 +7,7 @@
  * @y: The exponent value
  *
  * Return: The result of x raised to the power of y
- * 	 -1 if y is negative
+ * -1 if y is negative
  */
 int _pow_recursion(int x, int y)
 {
